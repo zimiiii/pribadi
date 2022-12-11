@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Random</title>
+</head>
+<body>
+
+    <style>
+
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .container{
+            font-family: 'calibri';
+        }
+
+        .header {
+            background-color: grey;
+            height: 70px;
+        }
+
+        .header h1 {
+            padding-top: 10px;
+            padding-left: 50px;
+            font-weight: bold;
+            font-size: 40px;
+        }
+
+        .header span {
+            color: red;
+        }
+
+        .navbar {
+            font-family: 'calibri';
+            font-weight: bold;
+            padding-left: 90px;
+            padding-top: 30px;
+        }
+
+        .navbar button {
+            width: 80px;
+            height: 40px;
+            margin-top: 30px;
+            box-shadow: inset 8px 8px 8px black ;
+        }
+
+        .navbar h1 {
+            /* border: 1px solid black; */
+            width: 430px;
+            padding-left: 10px;
+            background-color: white;
+            box-shadow: inset 4px 4px 4px black;
+        }
+
+        .footer {
+            background-color: gray;
+            margin-top: 490px;
+            text-align: center ;
+            padding-top: 15px;
+            padding-bottom: 15px;
+        }
+        
+
+    </style>
+
+    <div class="container">
+
+        <div class="header">
+            <h1>Mengubah Warna Background Melalui <span>JS</span></h1>
+        </div>
+
+        <div class="navbar">       
+            <h1>Background Color :<span class="color">White</span></h1>
+            <button id="btn">Klik Me</button>
+        </div>
+
+        <div class="footer">
+            <h3>Create By Azimi</h3>
+            <h4>CopyRight@2022</h4>
+        </div>
+    </div>
+
+    <script>
+
+        const warna = ["Blue", "Red", "Green", "black", "purple", "aqua", "alice blue", "aquamarine", "blue violet", "chocolate", "coral","cyan", "Dark Violet"];
+        const btn = document.getElementById("btn")
+        const color = document.querySelector('.color')
+console.log(btn)
+
+        function randomcolor(){
+            return Math.floor(Math.random() * warna.length);
+        }
+
+
+        console.log('randomcolor :', randomcolor())
+        btn.addEventListener("click", function(){
+            const warnarandom = randomcolor();
+            
+
+            document.body.style.backgroundColor= warna[warnarandom]
+            color.textContent = warna[warnarandom]
+        })
+
+    </script>
+
+</body>
+</html>
