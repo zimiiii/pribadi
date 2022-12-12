@@ -1,0 +1,303 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1366px;
+    margin: auto;
+}
+
+.header {
+    background-color: #292929;
+    height: 50px;
+ 
+}
+
+.header ul :hover {
+    color:  rgb(255, 60, 0);
+}
+
+.header ul {
+    display: flex;
+    padding-left: 1100px;
+    padding-top: 15px;
+    color: white;
+    font-family: 'calibri';
+}
+
+.header ul li {
+    padding-right: 20px;
+    list-style: none;
+}
+
+.header ul li a{
+    color: white;
+}
+
+.hero {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    height: 290px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'calibri';
+}
+
+.hero-title {
+    padding-left: 150px;
+    padding-top: 50px;
+    color: #00003a;
+}
+
+.hero-title h1 {
+    font-weight: bold;
+}
+
+.hero-title h5 {
+    width: 300px;
+    padding-top: 15px;
+}
+
+
+.hero-title h6 {
+    padding-left: 20px;
+    background-color: rgb(255, 60, 0);
+    color: white;
+    border: 1px solid rgb(255, 60, 0);
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    width: 100px;
+    font-family: 'calibri';
+    box-shadow:  0px 0px 5px #000, 0px 0px 15px #858585;
+}
+
+.hero-title h6 :hover {
+    color: aqua;
+    transition: .10s;
+}
+
+.foto-profil {
+    padding-right: 150px;
+    padding-top: 70px;
+}
+
+.foto-profil img{
+    width: 200px;
+    border-radius: 100% ;
+    box-shadow:  0px 0px 5px #000, 0px 0px 15px #858585;
+    
+}
+
+.content {
+    background-color: rgb(219, 255, 255);
+    margin-top: 40px;
+    height: 370px;
+    font-family: 'calibri';
+}
+
+.content-title h3 {
+    color: #00003a;
+    padding-left: 150px;
+    padding-top: 20px;
+}
+
+.content-title p {
+    text-align: right;
+    padding-right: 150px;
+    color: blue;
+    padding-bottom: 15px;
+}
+
+.content {
+    color: #00003a;
+}
+
+.conten {
+    display: flex;
+}
+
+.card-content {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    margin-left: 150px;
+    border: 8px solid white;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.card-content h1 {
+    color: #00003a;
+}
+
+.card-content p {
+    padding-top: 15px;
+}
+
+.card-content h4 {
+    width: 300px;
+    padding-top: 15px;
+}
+
+.card-content2 {
+    padding: 15px 15px;
+    border: 8px solid white;
+    margin-left: 210px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.card-content2 p {
+    padding-top: 15px;
+}
+
+.card-content2 h4 {
+    width: 300px;
+    padding-top: 15px;
+}
+
+.media {
+    font-family: 'calibri';
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 150px;
+    padding-top: 20px;
+    color: #00003a;
+}
+
+.logo-foto {
+    display: flex;
+}
+
+.foto {
+    display: flex;
+}
+.foto h2 {
+    padding-left: 20px;
+}
+
+.foto img {
+    padding-top: 20px;
+    width: 250px;
+    height: 180px;
+}
+
+.title-logo hr {
+    margin-top: 50px;
+}
+
+.title-logo h2 {
+    padding-top: 40px;
+}
+.title-logo p {
+    padding-left: 10px;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border:1px solid #00003a ;
+    background-color: #00003a;
+    border-radius: 10px;
+    width: 50px;
+    color: white;
+}
+
+.title-logo h3 {
+    padding-left: 20px;
+    width: 900px;
+}
+
+.logo-foto2 {
+    display: flex;
+}
+
+.title-logo2 hr {
+    margin-top: 50px;
+    width: 905px;
+}
+
+.foto1 {
+    display: flex;
+}
+
+.foto1 img {
+    width: 250px;
+    height: 210px;
+    padding-top: 70px;
+}
+
+.title-logo2 {
+    padding-left: 20px;
+}
+
+.title-logo2 h2 {
+    padding-top: 90px;
+}
+
+.title-logo2 p {
+    padding-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border:1px solid #00003a ;
+    background-color: #00003a;
+    border-radius: 10px;
+    width: 50px;
+    color: white;
+}
+
+.title-logo3 hr {
+    margin-top: 50px;
+    width: 905px;
+}
+
+.title-logo3 {
+    padding-top: 90px;
+    padding-left: 20px;
+
+}
+
+.title-logo3 p {
+    padding-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border:1px solid #00003a ;
+    background-color: #00003a;
+    border-radius: 10px;
+    width: 50px;
+    color: white;
+}
+
+.footer {
+    background-color:  #747474;
+    margin-top: 60px;
+    height: 110px;
+    font-family: 'calibri';
+    font-weight: bold;
+    color: #00003a;
+}
+
+.footer p {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.footer ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer ul li {
+    list-style: none;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.footer ul li img {
+    width: 40px;
+}
+
